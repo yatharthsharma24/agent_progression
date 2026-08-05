@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Ignore generated database (optional)
+database/
+chroma.sqlite3
+
+# Ignore material if you don't want to upload PDFs
+material/
